@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto; 
+}
+
+.menu {
+    flex-grow: 1; 
+    text-align: center;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px; 
+}
+
+.login-signup {
+    display: flex;
+    align-items: center;
+}
+.searchFilter{
+    padding-right: 20px;
+}
+.searchClass{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+.login-signup a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 15px; 
+}
+.signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*=================== Hero section code starting from here =====================*/
+
+.hero-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.hero-content {
+    max-width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.hero-heading {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.buttons-container {
+    display: flex;
+}
+
+.seller-btn {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.seller-btn:hover{
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.buyer-btn {
+    background-color: white; 
+    color: black;
+    border: 1px solid #333;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.buyer-btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.image-placeholder {
+    width: 50%; 
+    height: auto; 
+}
+
+/* ---------------- Section two -------------------- */
+
+.features-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    background-color: white;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.gif-placeholder {
+    width: 100%; 
+    height: auto; 
+}
+
+.feature-details {
+    max-width: 50%;
+}
+
+.feature-heading {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.feature-icon {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.feature-subheading {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.features-icons {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.features-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.buttons-container {
+    display: flex;
+}
+
+.sign-up-btn {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    padding: 12px 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.learn-how-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+/* ------------------------- SERVICES SECTION STYLE HERE ---------------------------- */
+
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    background-color: #f5f5f5;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.skills-details {
+    max-width: 100%;
+}
+
+.skills-heading {
+    font-size: 58px !important;
+    margin-bottom: 20px;
+}
+
+.skills-subheading {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.skill-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-box {
+    width: 23%; /* Adjust as needed */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill-subheading {
+    font-size: 14px;
+    color: #777;
+}
+
+/* --------------------------- SECTION FOUR ABOUT SKILLS ------------------------------- */
+.topSkills{
+    font-size: 46px;
+    color:#4CAF50;
+    line-height: 1.2em;
+    text-align: center;
+}
+.skills-section {
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skills-category {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.skills-list-1 {
+    width: 50%; 
+    font-size: 20px;
+    line-height: 1.5;
+    line-height: 2.5em;
+    margin: auto;
+}
+
+
+.skills-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* --------------------------- FOOTER STARTING FROM HERE --------------------------- */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    float: left;
+    width: 33%;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: auto;
+}
+
+.social-icons {
+    float: left;
+    width: 33%;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.newsletter {
+    float: left;
+    width: 33%;
+}
+
+.newsletter input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copyright {
+    clear: both;
+    padding-top: 20px;
+}
+.aboutCompanyFooter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+    float: left;
+}
